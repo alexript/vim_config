@@ -20,7 +20,7 @@ if has("gui_running")
 colorscheme lucius
 LuciusDark
 else
-	colorscheme industry
+	colorscheme catppuccin_macchiato 
 endif
 
 set guioptions-=T
