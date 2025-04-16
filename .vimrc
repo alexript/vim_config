@@ -1,5 +1,6 @@
 if has('unix')
 	language messages C
+	set shell=/usr/bin/bash
 else
 	language English_United States
 endif
