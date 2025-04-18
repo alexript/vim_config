@@ -52,8 +52,7 @@ let mapleader = " "
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-map <C-n> :NERDTree<CR>
-map <C-t> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 
 nmap <F8> :TagbarToggle<CR>
@@ -97,7 +96,7 @@ let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
 :hi TabLineSel ctermfg=Black ctermbg=DarkCyan
 :hi Title ctermfg=Black ctermbg=DarkBlue
 
-:nmap <F9> :tabprevious<CR>
-:nmap <F10> :tabnext<CR>
-:nmap <F11> :tabclose<CR>
+nmap <F9> :bprevious<CR>
+nmap <F10> :bnext<CR>
+nmap <F11> :bd<CR>
 
