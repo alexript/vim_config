@@ -55,3 +55,7 @@
 [submodule "vimfiles/bundle/vim-polyglot"]
 	path = vimfiles/bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vimfiles/bundle/coc.nvim"]
+	path = vimfiles/bundle/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
