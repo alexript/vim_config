@@ -3,6 +3,9 @@ winget install vim.vim
 winget install UniversalCtags.Ctags
 winget install OpenJS.NodeJS
 winget install DEVCOM.Lua
+winget install LLVM.clangd
+
+npm install -g vim-language-server
 
 git submodule update --init --recursive
 git config --global core.editor "\"C:/Program Files/Vim/vim91/vim.exe\""
@@ -22,6 +25,7 @@ for go
 
 
 for coc (https://github.com/neoclide/coc.nvim, https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
+ensure clangd in %PATH%
 :CocInfo
 :CocConfig
-:CocInstall coc-json coc-tsserver
+:CocInstall coc-json coc-tsserver coc-clangd coc-pretier coc-java coc-vimlsp
