@@ -52,3 +52,6 @@
 [submodule "vimfiles/other/catppuccin"]
 	path = vimfiles/other/catppuccin
 	url = https://github.com/catppuccin/vim.git
+[submodule "vimfiles/bundle/vim-polyglot"]
+	path = vimfiles/bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
