@@ -92,6 +92,12 @@ let mapleader = " "
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" If another buffer tries to replace NERDTree, put it in the other window, and
+" bring back NERDTree.
+autocmd BufEnter * if winnr() == winnr('h') && bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
+     \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
+let g:NERDTreeDirArrowExpandable = '►'
+let g:NERDTreeDirArrowCollapsible = '▼'
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 
@@ -117,11 +123,6 @@ map <M-Right> <C-]>
 
 " vim-go
 let g:go_version_warning = 0
-
-" https://github.com/inkarkat/vim-mark
-let g:mwDefaultHighlightingPalette = 'maximum'
-let g:mwAutoLoadMarks = 1
-nmap <Leader>N <Plug>MarkAllClear
 
 " https://github.com/xolox/vim-easytags
 :let g:easytags_always_enabled = 1
