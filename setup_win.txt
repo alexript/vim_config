@@ -28,4 +28,4 @@ for coc (https://github.com/neoclide/coc.nvim, https://github.com/neoclide/coc.n
 ensure clangd in %PATH%
 :CocInfo
 :CocConfig
-:CocInstall coc-json coc-tsserver coc-clangd coc-pretier coc-java coc-vimlsp
+:CocInstall coc-json coc-tsserver coc-clangd coc-pretier coc-java coc-vimlsp coc-git
