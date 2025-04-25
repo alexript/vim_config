@@ -16,12 +16,12 @@ set incsearch
 set autoindent
 
 if has("gui_running")
-" colorscheme desert
+"colorscheme desert
 " https://github.com/jonathanfilip/vim-lucius
 colorscheme lucius
-LuciusDark
 else
-	colorscheme catppuccin_macchiato 
+"colorscheme catppuccin_macchiato 
+colorscheme desert
 endif
 
 set guioptions-=T
@@ -90,6 +90,9 @@ nmap <Leader>N <Plug>MarkAllClear
 " https://github.com/inkarkat/vim-AutoAdapt
 let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
 
+" https://github.com/pangloss/vim-javascript
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
 
 :hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
 :hi TabLine ctermfg=Black ctermbg=Green
