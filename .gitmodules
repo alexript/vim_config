@@ -46,9 +46,6 @@
 [submodule "vimfiles/other/pathogen"]
 	path = vimfiles/other/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "vimfiles/other/catppuccin"]
-	path = vimfiles/other/catppuccin
-	url = https://github.com/catppuccin/vim.git
 [submodule "vimfiles/bundle/vim-polyglot"]
 	path = vimfiles/bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
@@ -56,3 +53,6 @@
 	path = vimfiles/bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "vimfiles/bundle/catppuccin"]
+	path = vimfiles/bundle/catppuccin
+	url = https://github.com/catppuccin/nvim.git

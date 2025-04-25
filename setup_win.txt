@@ -2,6 +2,7 @@ winget install vim.vim
 // add vim path (C:\Program Files\Vim\vim91) to %PATH% before other vim pathes
 winget install UniversalCtags.Ctags
 winget install OpenJS.NodeJS
+winget install DEVCOM.Lua
 
 git submodule update --init --recursive
 git config --global core.editor "\"C:/Program Files/Vim/vim91/vim.exe\""
@@ -11,7 +12,6 @@ link .vimrc to %HOME%/_vimrc
 link vimfiles to %HOME%/.vim
 link vimfiles to %HOME%/vimfiles
 link vimfiles\other\pathogen\autoload\pathogen.vim to %HOME%/.vim/autoload/pathogen.vim
-link vimfiles\other\catppuccin\colors\catppuccin_*.vim to %HOME%/.vim/colors
 
 
 in vim

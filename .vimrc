@@ -20,7 +20,6 @@ set autoindent
 " Some servers have issues with backup files, see #649
 set nobackup
 set nowritebackup
-
 set updatetime=300
 set signcolumn=yes
 
@@ -30,9 +29,9 @@ if has("gui_running")
 " https://github.com/jonathanfilip/vim-lucius
 colorscheme lucius
 else
-"colorscheme catppuccin_macchiato 
-colorscheme desert
-highlight LineNr ctermfg=darkgray
+colorscheme catppuccin-macchiato 
+" colorscheme desert
+" highlight LineNr ctermfg=darkgray
 endif
 
 set guioptions-=T
@@ -110,9 +109,6 @@ let g:javascript_plugin_ngdoc = 1
 :hi TabLineSel ctermfg=Black ctermbg=DarkCyan
 :hi Title ctermfg=Black ctermbg=DarkBlue
 
-nmap <F9> :bprevious<CR>
-nmap <F10> :bnext<CR>
-nmap <F11> :bd<CR>
 
 " https://github.com/neoclide/coc.nvim
 " Use tab for trigger completion with characters ahead and navigate
@@ -260,3 +256,9 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " end of COC
+
+nmap <leader><leader> :so<CR>
+
+nmap <F9> :bprevious<CR>
+nmap <F10> :bnext<CR>
+nmap <F11> :bwipeout<CR>
