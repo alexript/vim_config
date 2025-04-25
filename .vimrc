@@ -3,7 +3,7 @@ if has('unix')
 	set shell=/usr/bin/bash
 else
 	language English_United States
-	set shellslash=on
+"	set shellslash=on
 endif
 set nocompatible
 execute pathogen#infect()
