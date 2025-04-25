@@ -31,9 +31,6 @@
 [submodule "vimfiles/bundle/vimwiki"]
 	path = vimfiles/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
-[submodule "vimfiles/bundle/minibufexpl.vim"]
-	path = vimfiles/bundle/minibufexpl.vim
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "vimfiles/bundle/utl.vim"]
 	path = vimfiles/bundle/utl.vim
 	url = https://github.com/vim-scripts/utl.vim.git

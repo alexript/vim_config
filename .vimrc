@@ -62,6 +62,8 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
+let g:airline#extensions#tabline#enabled=1
+
 set guioptions-=T
 set fileformats=unix,dos
 set encoding=utf-8
