@@ -4,3 +4,4 @@ link .vimrc to %HOME%/.vimrc
 link vimfiles to %HOME%/.vim
 link vimfiles\other\pathogen\autoload\pathogen.vim to %HOME%/.vim/autoload/pathogen.vim
 link vimfiles\other\catppuccin\colors\catppuccin_*.vim to %HOME%/.vim/colors
+git config --global core.editor "vim.exe"
