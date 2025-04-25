@@ -32,6 +32,7 @@ colorscheme lucius
 else
 "colorscheme catppuccin_macchiato 
 colorscheme desert
+highlight LineNr ctermfg=darkgray
 endif
 
 set guioptions-=T
