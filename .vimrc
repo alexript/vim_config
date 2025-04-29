@@ -15,6 +15,7 @@ set ignorecase
 set hlsearch
 set incsearch
 set autoindent
+set noswapfile
 
 " COC https://github.com/neoclide/coc.nvim
 " Some servers have issues with backup files, see #649
