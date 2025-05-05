@@ -30,10 +30,13 @@ if has("gui_running")
 " https://github.com/jonathanfilip/vim-lucius
 colorscheme lucius
 else
-colorscheme catppuccin-macchiato 
-let g:airline_theme='catppuccin'
-" colorscheme desert
-" highlight LineNr ctermfg=darkgray
+  if has("lua")
+    colorscheme catppuccin-macchiato 
+    let g:airline_theme='catppuccin'
+  else
+    colorscheme desert
+    highlight LineNr ctermfg=darkgray
+  endif
 endif
 
 " air-line
