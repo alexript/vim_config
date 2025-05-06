@@ -1,31 +1,41 @@
-winget install vim.vim
-// add vim path (C:\Program Files\Vim\vim91) to %PATH% before other vim pathes
-winget install UniversalCtags.Ctags
-winget install OpenJS.NodeJS
-winget install DEVCOM.Lua
-winget install LLVM.clangd
 
-npm install -g vim-language-server
+dependencies
+============
 
-git submodule update --init --recursive
-git config --global core.editor "\"C:/Program Files/Vim/vim91/vim.exe\""
+- winget install vim.vim
+- // add vim path (C:\Program Files\Vim\vim91) to %PATH% before other vim pathes
+- // git config --global core.editor "\"C:/Program Files/Vim/vim91/vim.exe\""
+- winget install UniversalCtags.Ctags
+- winget install OpenJS.NodeJS
+- winget install DEVCOM.Lua
+- winget install LLVM.clangd
+- npm install -g vim-language-server
 
-link .vimrc to %HOME%/.vimrc
-link .vimrc to %HOME%/_vimrc
-link vimfiles to %HOME%/.vim
-link vimfiles to %HOME%/vimfiles
-link vimfiles\other\pathogen\autoload\pathogen.vim to %HOME%/.vim/autoload/pathogen.vim
+
+this folder
+===========
+- git submodule update --init --recursive
+- link .vimrc to %HOME%/.vimrc
+- link .vimrc to %HOME%/_vimrc
+- link vimfiles to %HOME%/.vim
+- link vimfiles to %HOME%/vimfiles
+- link vimfiles\other\pathogen\autoload\pathogen.vim to %HOME%/.vim/autoload/pathogen.vim
 
 
 in vim
 ======
 
 for go
-:GoInstallBinaries or :GoUpdateBinaries
+------
+- :GoInstallBinaries or :GoUpdateBinaries
 
 
 for coc (https://github.com/neoclide/coc.nvim, https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
-ensure clangd in %PATH%
-:CocInfo
-:CocConfig
-:CocInstall coc-json coc-tsserver coc-clangd coc-pretier coc-java coc-vimlsp coc-git
+-------
+- ensure clangd in %PATH%
+- :CocInfo
+- :CocConfig
+- :CocInstall coc-json coc-tsserver coc-clangd coc-pretier coc-vimlsp coc-git
+
+
+/* vim: set filetype=journal: */

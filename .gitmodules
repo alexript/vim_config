@@ -77,3 +77,6 @@
 [submodule "vimfiles/bundle/vim-localrc"]
 	path = vimfiles/bundle/vim-localrc
 	url = https://github.com/thinca/vim-localrc.git
+[submodule "vimfiles/bundle/vim-journal"]
+	path = vimfiles/bundle/vim-journal
+	url = https://github.com/junegunn/vim-journal.git
