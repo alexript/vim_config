@@ -74,3 +74,6 @@
 [submodule "vimfiles/bundle/searchcomplete"]
 	path = vimfiles/bundle/searchcomplete
 	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "vimfiles/bundle/vim-localrc"]
+	path = vimfiles/bundle/vim-localrc
+	url = https://github.com/thinca/vim-localrc.git
