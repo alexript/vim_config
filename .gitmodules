@@ -65,3 +65,6 @@
 [submodule "vimfiles/bundle/gv-vim"]
 	path = vimfiles/bundle/gv-vim
 	url = https://github.com/junegunn/gv.vim.git
+[submodule "vimfiles/bundle/vim-scimark"]
+	path = vimfiles/bundle/vim-scimark
+	url = https://github.com/mipmip/vim-scimark.git
