@@ -68,3 +68,6 @@
 [submodule "vimfiles/bundle/vim-scimark"]
 	path = vimfiles/bundle/vim-scimark
 	url = https://github.com/mipmip/vim-scimark.git
+[submodule "vimfiles/bundle/rainbow_parenthesis"]
+	path = vimfiles/bundle/rainbow_parenthesis
+	url = https://github.com/kien/rainbow_parentheses.vim.git
