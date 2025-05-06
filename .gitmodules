@@ -71,3 +71,6 @@
 [submodule "vimfiles/bundle/rainbow_parenthesis"]
 	path = vimfiles/bundle/rainbow_parenthesis
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vimfiles/bundle/searchcomplete"]
+	path = vimfiles/bundle/searchcomplete
+	url = https://github.com/vim-scripts/SearchComplete.git
