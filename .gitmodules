@@ -80,3 +80,6 @@
 [submodule "vimfiles/bundle/vim-journal"]
 	path = vimfiles/bundle/vim-journal
 	url = https://github.com/junegunn/vim-journal.git
+[submodule "vimfiles/bundle/vim-startuptime"]
+	path = vimfiles/bundle/vim-startuptime
+	url = https://github.com/dstein64/vim-startuptime.git
