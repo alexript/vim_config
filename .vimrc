@@ -7,8 +7,8 @@ else
 endif
 set nocompatible
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+" syntax on
+" filetype plugin indent on
 set relativenumber
 set ruler
 set ignorecase
@@ -23,6 +23,8 @@ set nobackup
 set nowritebackup
 set updatetime=300
 set signcolumn=yes
+
+let g:chezmoi = "enabled"
 
 
 if has("gui_running")
@@ -326,3 +328,7 @@ nmap <leader><leader> :so<CR>
 nmap <F9> :bprevious<CR>
 nmap <F10> :bnext<CR>
 nmap <F11> :bwipeout<CR>
+
+
+syntax on
+filetype plugin indent on

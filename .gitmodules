@@ -83,3 +83,9 @@
 [submodule "vimfiles/bundle/vim-startuptime"]
 	path = vimfiles/bundle/vim-startuptime
 	url = https://github.com/dstein64/vim-startuptime.git
+[submodule "vimfiles/bundle/chezmoi-vim"]
+	path = vimfiles/bundle/chezmoi-vim
+	url = https://github.com/alker0/chezmoi.vim.git
+[submodule "vimfiles/bundle/vim-chezmoi"]
+	path = vimfiles/bundle/vim-chezmoi
+	url = https://github.com/Lilja/vim-chezmoi.git
